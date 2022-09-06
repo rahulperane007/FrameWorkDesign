@@ -14,15 +14,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.mystore.testcases.TC_MyAccountPageTest -->
-      <class name="com.mystore.testcases.TC_ProductPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verifyAddToWishlistWithoutLogin"/>
-          <include name="VerifySearchProduct"/>
-          <include name="setup"/>
-          <include name="VerifyBuyProduct"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.TC_ProductPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

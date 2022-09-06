@@ -59,6 +59,8 @@ public class BaseClass {
 
 		}
 
+		// Maximize Browser
+		driver.manage().window().maximize();
 		//implicit wait of 10 secs
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 

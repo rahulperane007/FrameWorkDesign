@@ -10,7 +10,7 @@ public class ReadConfig {
 
 	Properties properties;
 
-	String path = "C:\\Users\\prach\\Desktop\\CS_AutomationFramework\\MyStoreV1\\Configuration\\config.properties";
+	String path = "C:\\Users\\sai\\git\\FrameWorkDesign\\Configuration\\config.properties";
 
 	//constructor
 	public ReadConfig() {
