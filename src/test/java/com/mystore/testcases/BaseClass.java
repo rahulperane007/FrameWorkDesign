@@ -29,7 +29,7 @@ public class BaseClass {
 	String password = readConfig.getPassword();
 	
 	
-	public static WebDriver driver;
+	public  WebDriver driver;
 	public static Logger logger;
 
 	@BeforeClass

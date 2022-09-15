@@ -48,11 +48,13 @@ public class myAccountPage {
 	public void enterCreateEmailAddress(String emailAdd) 
 	{
 		createEmailId.sendKeys(emailAdd);
+		
 	}
 
 	
 	public void clickSubmitCreate()
 	{
+		
 		SubmitCreate.click();
 	}
 	

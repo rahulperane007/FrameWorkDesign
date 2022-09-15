@@ -27,7 +27,7 @@ public class TC_MyAccountPageTest extends BaseClass {
 		logger.info("Clicked on sign in link");
 
 		myAccountPage myAcpg = new myAccountPage(driver);
-		myAcpg.enterCreateEmailAddress("cs923@gmail.com");
+		myAcpg.enterCreateEmailAddress(emailAddress);
 		logger.info("Email address entered in create account section.");
 
 		myAcpg.clickSubmitCreate();
@@ -39,7 +39,7 @@ public class TC_MyAccountPageTest extends BaseClass {
 		accCreationPg.selectTitleMrs();
 		accCreationPg.enterCustomerFirstName("Prachi");
 		accCreationPg.enterCustomerLastName("Gupta");
-		accCreationPg.enterPassword("cs923");
+		accCreationPg.enterPassword(password);
 		accCreationPg.enterAddressFirstName("Prachi");
 		accCreationPg.enterAddressLastName("Gupta");
 		accCreationPg.enterAddress("18/8 worli road");
